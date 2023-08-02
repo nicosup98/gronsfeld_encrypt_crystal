@@ -1,0 +1,15 @@
+name: gronsfled encrypt
+version: 0.1.0
+
+authors:
+  - nicosup <damiconicola98@gmail.com>
+
+targets:
+  sandbox:
+    main: src/cli.cr
+dependencies:
+  clicr:
+    github: j8r/clicr
+crystal: 1.9.2
+
+license: MIT
